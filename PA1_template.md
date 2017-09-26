@@ -158,7 +158,7 @@ ggplot(newData, aes(date, steps)) + geom_bar(stat = "identity",
                                              width = 0.7) + facet_grid(. ~ month, scales = "free") + labs(title = "Histogram of Total Number of Steps Taken Each Day (no missing data)", x = "Date", y = "Total number of steps")
 ```
 
-![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10.png) 
+![plot of chunk unnamed-chunk-10](https://github.com/NicoleChangGao/RepData_PeerAssessment1/blob/master/unnamed-chunk-10.png?raw=true）
 
 * Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number of steps?
 
