@@ -87,7 +87,7 @@ names(avgSteps)[2] <- "meanOfSteps"
 ggplot(avgSteps, aes(interval, meanOfSteps)) + geom_line(color = "steelblue", size = 0.8) + labs(title = "Time Series Plot of the 5-minute Interval", x = "5-minute intervals", y = "Average Number of Steps Taken")
 ```
 
-![plot of chunk unnamed-chunk-6]() 
+![plot of chunk unnamed-chunk-6](https://github.com/NicoleChangGao/RepData_PeerAssessment1/blob/master/unnamed-chunk-6.png?raw=true) 
 
 * Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
